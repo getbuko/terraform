@@ -1,0 +1,13 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Local overrides
+terraform.tfvars
+*.auto.tfvars
+
+# VS Code
+.vscode/
